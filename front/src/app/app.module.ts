@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { CardComponent } from './components/card/card.component';
 import { CardWrapperComponent } from './components/card-wrapper/card-wrapper.component';
-import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -23,7 +22,6 @@ import { DenunciaComponent } from './pages/denuncia/denuncia.component';
     NavComponent,
     CardComponent,
     CardWrapperComponent,
-    NosotrosComponent,
     ContactoComponent,
     HomeComponent,
     NotFoundComponent,

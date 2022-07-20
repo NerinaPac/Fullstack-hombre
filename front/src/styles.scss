@@ -1,28 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* 
-    Este es mi CSS general
-*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: calibri;
+    
+}
+
+img{
+    max-width: 100%;
 }
 
 :root {
-    --blanco: #FFF;
-    --negro: #000;
-    --gris: #333;
-    --naranja: #F90;
-    --violeta: purple;
-    --amarillo: yellow;
+    --azulfuerte:#274C77;
+    --grisclaro:#E7ECEF;
+    --azulpetro:#6096BA;
+    --celeste:#A3CEF1;
+    --grisoscuro:#8B8C89;
+    --celesteclaro:rgb(207, 237, 237);
+    --naranja:#e76f51;
+    --violeta:#cdb4db;
 }
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-img {
-    width: 100%;
-}

@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    
+    
+
     &::before{
         content: '';
         height: 100%;
@@ -21,12 +24,13 @@
         align-self: stretch;
         display: flex;
         overflow: hidden;
-        
+        background-image: url('/assets/carrucel/naruto2.jpg');
         
         &-item {
             
             float: left;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             min-width: 100%;
@@ -35,6 +39,8 @@
             background-size: cover;
             background-position: center;
             transition: 1s all ease-in;
+            
+           
             
             h1 {
                 color: white;

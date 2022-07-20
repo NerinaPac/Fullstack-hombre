@@ -41,6 +41,7 @@ export class CarrucelComponent implements OnInit {
     setNext() {
       let finalPercentage = 0;
       let nextPosition = this.currentPosition + 1;
+      
       if (nextPosition <= this.items.length - 1){
         finalPercentage = -100 * nextPosition;
       }else {

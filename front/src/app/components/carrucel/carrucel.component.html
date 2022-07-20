@@ -4,10 +4,12 @@
         <i class="fa-solid fa-circle-arrow-right" (click)="setNext"></i>
     </div>
     <div class="dsc-carrucel__content">
-        <ng-container *ngFor="let section of items;">
-            <div class="das-carrucel__content-item" ngStyle:string="[{background-image: url('https://misanimeshn.files.wordpress.com/2014/10/naruto-wallpaper-hd.jpg?w=1200');}]">
-                <h1><span></span></h1>
-                <p></p>
+        <ng-container>
+            <!-- *ngFor="let section of items; -->
+            <div class="dsc-carrucel__content-item">
+                <h1><span>Naruto Uzumaki</span></h1>
+                
+                <p>"Yo jamás me rendiré, y jamás retrocederé a mi palabra, porque ese es mi Camino Ninja!"</p>
             </div>
         </ng-container>
     </div>
