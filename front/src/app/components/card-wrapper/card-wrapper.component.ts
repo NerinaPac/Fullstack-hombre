@@ -9,45 +9,25 @@ export class CardWrapperComponent implements OnInit {
 
   constructor() { }
 
-  viajes = [
+  noticias = [
     {
-      imagen: "assets/viajes/bergen.webp",
-      categoria: "Paquete",
-      titulo: "5 noches en Noruega",
-      contenido: "Lorem ipsum sarasa blah",
-      precio: 3456
+      imagen: "assets/noticias/lucio-dupuy.webp",
+      titulo: "Lucio: Un padre que lucho por su tenencia, y un descarrador final.",
+      contenido: "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah",
     },
     {
-      imagen: "assets/viajes/melbourne.jpg",
-      categoria: "Vuelo",
-      titulo: "Conocé Australia",
-      contenido: "Lorem ipsum sarasa blah sa",
-      destacado: true,
-      precio: 4260
+      imagen: "assets/noticias/jonny.webp",
+      titulo: "Jhonny Depp: Victima de violencia de genero femenino.",
+      contenido: "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
     },
     {
-      imagen: "assets/viajes/londres.jpg",
-      categoria: "Hotel",
-      titulo: "Habitación en Hogwarts",
-      contenido: "Lorem ipsum sarasa blah sa",
-      destacado: true,
-      precio: 7571
-    },
-    {
-      imagen: "assets/viajes/medellin.jpg",
-      categoria: "Vuelo",
-      titulo: "Conocé Colombia",
-      contenido: "Lorem ipsum sarasa blah sa",
-      precio: 345
+      imagen: "assets/noticias/padre-ucrania-nene.webp",
+      titulo: "Ucrania: Los hombres estan obligados a ir a la guerra.",
+      contenido: "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
+      
     },
   ];
 
-  // imagen = "assets/viajes/bergen.webp";
-  // categoria = "Vuelos";
-  // titulo = "Viaja a Australia";
-  // contenido = "Lorem ipsum sarasa blah";
-  // destacado = false;
-  // precio = 456;
 
   ngOnInit(): void {
   }
