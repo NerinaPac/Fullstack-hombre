@@ -1,0 +1,24 @@
+<div class="dsc-carrucel" [ngStyle]="{'min-height': finalHeight}">
+    <div class="dsc-carrucel__btns">
+        <i class="fa-solid fa-circle-arrow-left" (click)="setBack"></i>
+        <i class="fa-solid fa-circle-arrow-right" (click)="setNext"></i>
+    </div>
+    <div class="dsc-carrucel__content">
+        <ng-container *ngFor="let section of items;">
+            <div class="das-carrucel__content-item" ngStyle:string="[{background-image: url('https://misanimeshn.files.wordpress.com/2014/10/naruto-wallpaper-hd.jpg?w=1200');}]">
+                <h1><span></span></h1>
+                <p></p>
+            </div>
+        </ng-container>
+    </div>
+    <div class="dsc-carrucel__steps">
+        <div class="dsc-carruel__steps-step">
+
+        </div>
+    </div>
+
+
+
+
+</div>
+

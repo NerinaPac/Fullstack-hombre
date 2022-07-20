@@ -13,6 +13,9 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { CarrucelComponent } from './components/carrucel/carrucel.component';
+import { PorqueLuchamosComponent } from './pages/porque-luchamos/porque-luchamos.component';
+import { DenunciaComponent } from './pages/denuncia/denuncia.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     NosotrosComponent,
     ContactoComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    CarrucelComponent,
+    PorqueLuchamosComponent,
+    DenunciaComponent
   ],
   imports: [
     BrowserModule,
