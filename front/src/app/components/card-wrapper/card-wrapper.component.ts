@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-card-wrapper',
   templateUrl: './card-wrapper.component.html',
@@ -9,7 +10,7 @@ export class CardWrapperComponent implements OnInit {
 
   constructor() { }
 
-  noticias = [
+noticias = [
     {
       imagen: "assets/noticias/lucio-dupuy.webp",
       titulo: "Lucio: Un padre que lucho por su tenencia, y un descarrador final.",
