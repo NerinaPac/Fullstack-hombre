@@ -16,6 +16,7 @@ import { CarrucelComponent } from './components/carrucel/carrucel.component';
 import { PorqueLuchamosComponent } from './pages/porque-luchamos/porque-luchamos.component';
 import { DenunciaComponent } from './pages/denuncia/denuncia.component';
 import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.component';
+import { NewslettersComponent } from './components/newsletters/newsletters.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.compon
     CarrucelComponent,
     PorqueLuchamosComponent,
     DenunciaComponent,
-    ArtWrapperComponent
+    ArtWrapperComponent,
+    NewslettersComponent
   ],
   imports: [
     BrowserModule,
