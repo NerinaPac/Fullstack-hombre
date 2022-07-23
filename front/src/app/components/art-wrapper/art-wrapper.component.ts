@@ -12,17 +12,17 @@ export class ArtWrapperComponent implements OnInit {
   articulos = [
     {
       imagen: "assets/noticias/aborto-masculino.jpg",
-      titulo: "Lucio: Un padre que lucho por su tenencia, y un descarrador final.",
+      titulo: "La obligacion de los padres de cumplir con la Demanda por Alimentos",
       contenido: "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah",
     },
     {
       imagen: "assets/noticias/hombre-cayendo.jpg",
-      titulo: "Jhonny Depp: Victima de violencia de genero femenino.",
+      titulo: "Lorem ipsu.",
       contenido: "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
     },
     {
       imagen: "assets/noticias/nueva-izquierda.jpg",
-      titulo: "Ucrania: Los hombres estan obligados a ir a la guerra.",
+      titulo: "El libro negro de la Nueva izquierda, de Nicolas Marquez y Agustin Laje.",
       contenido: "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa",
       
     },

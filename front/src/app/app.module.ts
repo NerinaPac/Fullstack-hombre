@@ -17,6 +17,7 @@ import { PorqueLuchamosComponent } from './pages/porque-luchamos/porque-luchamos
 import { DenunciaComponent } from './pages/denuncia/denuncia.component';
 import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.component';
 import { NewslettersComponent } from './components/newsletters/newsletters.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NewslettersComponent } from './components/newsletters/newsletters.compo
     PorqueLuchamosComponent,
     DenunciaComponent,
     ArtWrapperComponent,
-    NewslettersComponent
+    NewslettersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

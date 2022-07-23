@@ -1,0 +1,34 @@
+.piedepag{
+    background-color: var(--azulfuerte);
+    margin-top: 2rem;
+    padding: 4rem;
+    max-width: 100%;
+    
+}
+
+.piedepag-lista{
+    margin: 0 auto;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.piedepag-lista-item{
+    list-style: none;
+}
+
+.piedepag-lista-item-a{
+    font-size: 2rem;
+    color:white;
+}
+
+.piedepag-lista-item-a:hover{
+ color:var(--celeste);
+}
+
+@media(max-width: 780px){
+
+    /* .piedepag-lista{
+        max-width: 100%; */
+    
+}
