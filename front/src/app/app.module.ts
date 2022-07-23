@@ -15,6 +15,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CarrucelComponent } from './components/carrucel/carrucel.component';
 import { PorqueLuchamosComponent } from './pages/porque-luchamos/porque-luchamos.component';
 import { DenunciaComponent } from './pages/denuncia/denuncia.component';
+import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DenunciaComponent } from './pages/denuncia/denuncia.component';
     NotFoundComponent,
     CarrucelComponent,
     PorqueLuchamosComponent,
-    DenunciaComponent
+    DenunciaComponent,
+    ArtWrapperComponent
   ],
   imports: [
     BrowserModule,

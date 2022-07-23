@@ -1,0 +1,10 @@
+<div class="card-contenedor">
+    <app-card 
+            *ngFor="let articulo of articulos"
+            [imagen] = "articulo.imagen"
+            [titulo] = "articulo.titulo"
+            [contenido] = "articulo.contenido"
+            
+    ></app-card>
+    </div>
+    
