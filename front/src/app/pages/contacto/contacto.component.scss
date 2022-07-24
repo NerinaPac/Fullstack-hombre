@@ -1,0 +1,35 @@
+.body-contactos{
+    background-color: var(--celeste);
+}
+
+.contactos-contenido{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.contactos-contenido h2{
+    text-decoration: underline;
+}
+
+.cuerpo-contactos{
+    margin: 2rem auto;
+    max-width: 70rem;
+    background-color: var(--grisclaro);
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px;
+}
+
+.contactos-img{
+    max-width: 70rem;
+    opacity: 80%;
+
+    
+}
+
+.cuerpo-contactos p, h3 {
+    margin-top: 1rem;
+}
