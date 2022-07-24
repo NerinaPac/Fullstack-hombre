@@ -1,0 +1,25 @@
+.card-noticion{
+    max-width: 50rem;
+    max-height: 30rem;
+    transition: all 2s;
+
+   
+    &:hover{
+         transform:scale(1.1);
+
+    }
+
+}
+
+.card-noticion_info{ 
+    text-decoration: none;
+    color: black;
+    /* & img {
+        height: 15rem;
+        
+    } */
+    & h2{
+        text-align: center;
+        
+    }
+}

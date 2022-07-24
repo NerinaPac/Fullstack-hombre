@@ -20,6 +20,7 @@ import { NewslettersComponent } from './components/newsletters/newsletters.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { NoticiasComponent } from './pages/noticias/noticias.component';
+import { NoticionComponent } from './components/noticion/noticion.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { NoticiasComponent } from './pages/noticias/noticias.component';
     NewslettersComponent,
     FooterComponent,
     FormularioComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    NoticionComponent
   ],
   imports: [
     BrowserModule,
