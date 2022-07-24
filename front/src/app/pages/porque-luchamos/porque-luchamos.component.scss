@@ -1,0 +1,33 @@
+.body-pqluchamos{
+    background-image: url(/img/otonio.webp);
+    background-color: var(--naranja);
+    background-repeat: none;
+}
+
+
+.pqluchamos-cuadrotext h2{
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.cuadrotext-nuestralucha{
+    background-color: var(--celesteclaro);
+    width: 65rem;
+    margin: 1rem auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.cuadrotext-nuestralucha p{
+    text-align: justify;
+    margin-top: 8px;
+}
+
+.cuadrotext-nuestralucha img{
+    box-shadow: 1px 1px 1px;
+    width: 65rem;
+}

@@ -1,9 +1,8 @@
 .piedepag{
     background-color: var(--azulfuerte);
-    margin-top: 2rem;
     padding: 4rem;
     max-width: 100%;
-    
+    margin-top: 1rem;    
 }
 
 .piedepag-lista{
@@ -28,7 +27,7 @@
 
 @media(max-width: 780px){
 
-    /* .piedepag-lista{
-        max-width: 100%; */
-    
+   .piedepag-lista{
+        max-width: 100%;
+   }
 }
