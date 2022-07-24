@@ -19,6 +19,7 @@ import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.compon
 import { NewslettersComponent } from './components/newsletters/newsletters.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
+import { NoticiasComponent } from './pages/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormularioComponent } from './components/formulario/formulario.componen
     ArtWrapperComponent,
     NewslettersComponent,
     FooterComponent,
-    FormularioComponent
+    FormularioComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
