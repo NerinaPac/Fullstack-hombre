@@ -18,6 +18,7 @@ import { DenunciaComponent } from './pages/denuncia/denuncia.component';
 import { ArtWrapperComponent } from './components/art-wrapper/art-wrapper.component';
 import { NewslettersComponent } from './components/newsletters/newsletters.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FooterComponent } from './components/footer/footer.component';
     DenunciaComponent,
     ArtWrapperComponent,
     NewslettersComponent,
-    FooterComponent
+    FooterComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
