@@ -21,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { NoticionComponent } from './components/noticion/noticion.component';
+import { NoticiaComponent } from './pages/noticia/noticia.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { NoticionComponent } from './components/noticion/noticion.component';
     FooterComponent,
     FormularioComponent,
     NoticiasComponent,
-    NoticionComponent
+    NoticionComponent,
+    NoticiaComponent
   ],
   imports: [
     BrowserModule,

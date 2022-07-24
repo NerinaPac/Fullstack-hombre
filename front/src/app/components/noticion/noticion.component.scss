@@ -1,7 +1,9 @@
 .card-noticion{
-    max-width: 50rem;
+    max-width: 55rem;
     max-height: 30rem;
     transition: all 2s;
+    margin-bottom: 3rem;
+    
 
    
     &:hover{
@@ -11,13 +13,14 @@
 
 }
 
+img {
+    box-shadow: 0px 0px 2px 0px;
+}
+
 .card-noticion_info{ 
     text-decoration: none;
     color: black;
-    /* & img {
-        height: 15rem;
-        
-    } */
+
     & h2{
         text-align: center;
         

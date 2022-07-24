@@ -7,6 +7,7 @@ import { DenunciaComponent } from './pages/denuncia/denuncia.component';
 import { PorqueLuchamosComponent } from './pages/porque-luchamos/porque-luchamos.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { NoticiasComponent } from './pages/noticias/noticias.component';
+import { NoticiaComponent } from './pages/noticia/noticia.component';
 
 
 // La home siempre primera y el 404 siempre al final
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'contacto', component: ContactoComponent},
   {path:'denuncia', component: DenunciaComponent},
   {path:'porque-luchamos', component: PorqueLuchamosComponent},
+  {path: 'noticia', component: NoticiaComponent},
   {path: '**', component: NotFoundComponent}
   
 ];
