@@ -1,13 +1,14 @@
 <div class="card-contenedor">
 <app-card 
-        *ngFor="let noticia of noticias"
-        [imagen] = "noticia.imagen"
-        [titulo] = "noticia.titulo"
-        [contenido] = "noticia.contenido"
+*ngFor="let info of data"
+
+[imagen] = "info[0].imagen"
+[titulo] = "info[0].titulo"
+[contenido] = "info[0].contenido"
+        
         
 ></app-card>
-</div>
-
+<h1>Culo</h1>
 
 <!-- <ul *ngFor="let viaje of viajes">
     <li>{{ viaje.titulo }}</li>
