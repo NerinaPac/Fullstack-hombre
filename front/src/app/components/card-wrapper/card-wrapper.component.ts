@@ -24,11 +24,6 @@ export class CardWrapperComponent implements OnInit {
         
   }
 
-  
-  
-  
-  
-
   ngOnInit(): void {
     this.mostrarInfoNoticias();
 

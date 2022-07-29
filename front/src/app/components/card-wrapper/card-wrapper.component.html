@@ -1,6 +1,6 @@
 <div class="card-contenedor">
 <app-card 
-*ngFor="let info of data"
+*ngFor="let info of data; let ultimo = last;" [ngClass]="{desaparecer:ultimo}"
 
 [imagen] = "info.imagen"
 [titulo] = "info.titulo"
@@ -8,8 +8,4 @@
         
         
 ></app-card>
-<h1>Culo</h1>
 
-<!-- <ul *ngFor="let viaje of viajes">
-    <li>{{ viaje.titulo }}</li>
-</ul> -->
