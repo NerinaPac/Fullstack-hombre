@@ -1,40 +1,27 @@
-{ 
-    "noticias":[ 
+[
     {
     "imagen": "assets/noticias/lucio-dupuy.webp",
     "titulo": "Lucio: Un padre que lucho por su tenencia, y un descarrador final.",
     "contenido": "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah"
     },
+
     {
     "imagen": "assets/noticias/jonny.webp",
     "titulo": "Jhonny Depp: Victima de violencia de genero femenino.",
     "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"
      },
+
      {
     "imagen": "assets/noticias/padre-ucrania-nene.webp",
     "titulo": "Ucrania: Los hombres estan obligados a ir a la guerra.",
     "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"    
      },
+
      {
     "imagen": "assets/noticias/homicidio.jpg",
     "titulo": "Mató a su pareja en la cama y lo descuartizó .",
     "contenido": "Los jueces decidieron por unanimidad absolver a Mafalda al considerar que ella padecia violencia de genero, aún después de describir los detalles de cómo intentó descuartizar el cuerpo y esconderlo en un galpón al fondo de su casa"
-     }],
+    } 
 
-    "articulos": [  {
-    "imagen": "assets/noticias/aborto-masculino.jpg",
-    "titulo": "La obligacion de los padres de cumplir con la Demanda por Alimentos",
-    "contenido": "Lorem ipsum sarasa blah Lorem ipsum sarasa blah Lorem ipsum sarasa blah"
-    },
-    {
-    "imagen": "assets/noticias/hombre-cayendo.jpg",
-    "titulo": "Lorem ipsu.",
-    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"
-     },
-    {
-    "imagen": "assets/noticias/nueva-izquierda.jpg",
-    "titulo": "El libro negro de la Nueva izquierda, de Nicolas Marquez y Agustin Laje.",
-    "contenido": "Lorem ipsum sarasa blah sa Lorem ipsum sarasa blah sa"
-    
-     }]
-}
+]
+
