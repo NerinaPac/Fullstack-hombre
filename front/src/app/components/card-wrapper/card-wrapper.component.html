@@ -1,10 +1,9 @@
 <div class="card-contenedor">
-<app-card 
-*ngFor="let info of data; let ultimo = last;" [ngClass]="{desaparecer:ultimo}"
 
+<app-card 
+*ngFor="let info of data; let primera = first;" [ngClass]="{desaparecer:primera}"
 [imagen] = "info.imagen"
 [titulo] = "info.titulo"
-[contenido] = "info.contenido"
         
         
 ></app-card>
