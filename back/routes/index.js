@@ -21,15 +21,17 @@ router.get('/autores', async (req, res) => {
   const autores = await api.getAuthors();
   res.send(autores);
 });
+/* ===================================================================================== */
 
-/* POST agregar-libro */
-router.post('/agregar-libro', async (req, res) => {
-  let {titulo, autor, precio} = req.body;
+/* POST agregar-denuncia */
+router.post('/agregar-exposicion', async (req, res) => {
+  let {nombre, apellido, fechaDeNacimiento, email, telefono, exposicion} = req.body;
 
   // titulo, precio, portada, autorId
-  await api.insertBook(titulo, precio, '', autor);
+  await api.insertExpo(nombre, apellido, fechaDeNacimiento, email, telefono, exposicion);
 
-  res.status(200).send('ok');
+  res.redirect('/denuncia');
+ /* s */
 });
 
 

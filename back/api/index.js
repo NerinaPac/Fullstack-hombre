@@ -53,11 +53,11 @@ const findBookByTitle = async (termino) => {
     return books;
 }
 
-const insertBook = async (titulo, precio, portada, autorId) => {
-    const libro = await db.libro.create({
-        titulo, precio, portada, autorId
+const insertExpo = async (nombre, apellido, fechaDeNacimiento, email, telefono, exposicion) => {
+    const expoDenuncia = await db.denuncia.create({
+        nombre, apellido, fechaDeNacimiento, email, telefono, exposicion
     });
-    return libro;
+    return expoDenuncia;
 }
 
 
@@ -66,5 +66,5 @@ module.exports = {
     getAuthors,
     getBookById,
     findBookByTitle,
-    insertBook
+    insertExpo
 }

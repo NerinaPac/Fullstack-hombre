@@ -1,37 +1,37 @@
 <div class="cuadro-denuncia">
-    <form action="enviar.js" class="denuncia">
+    <form action="api/agregar-exposicion" class="denuncia" method="post">
 
         <label class="botones_denuncia"> 
             Nombres:
-            <input type="text">               
+            <input type="text" name="nombre">               
         </label>
         <br><br>
         <label class="botones_denuncia"> 
                 Apellidos:
-                <input type="text">                   
+                <input type="text" name="apellido">                   
         </label>       
         <br><br>
         <label>
             Fecha de Nacimiento:
-            <input type="date">
+            <input type="date" name="fechaDeNacimiento">
         </label>
         <br><br>
         <label class="botones_denuncia"> 
                 E-mail:                           
-            <input type="Email" required>
+            <input type="Email" name="email"required>
         </label>
         <br><br>
 
         <label class="botones_denuncia"> 
             Telefono:                           
-        <input type="tel" required>
+        <input type="tel" name="telefono" required>
         </label>
         
         <br><br>
 
         <label for="text-denuncia">Escribinos tu denuncia</label>
         
-        <textarea name="cuadrodenuncia" id="text-denuncia" cols="60" rows="12" class="botones_denuncia"></textarea>
+        <textarea name="exposicion" id="text-denuncia" cols="60" rows="12" class="botones_denuncia"></textarea>
 
         <input type="submit" value="Enviar" class="denuncia_enviar">
 
