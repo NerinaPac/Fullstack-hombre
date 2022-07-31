@@ -1,4 +1,4 @@
-.cuadro-denuncia{
+.denuncia{
 
     background-color: var(--celesteclaro);
     max-width: 25rem;
@@ -8,11 +8,13 @@
     padding: 1rem;
     box-shadow: 6px 6px 30px;
 
-}
+    &_enviar{
+        margin-left: 19rem;
+        padding: 2px 12px;
+        
+    }
 
-
-.denuncia_enviar{
-   margin-left: 19rem;
-   padding: 2px 12px;
    
 }
+
+
