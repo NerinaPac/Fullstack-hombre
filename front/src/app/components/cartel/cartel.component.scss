@@ -1,0 +1,20 @@
+.cartel{
+    background-color: blueviolet;
+    display: flex;
+    margin: 0 auto;
+    max-width: 80rem;
+    justify-content: center;
+    align-items: center;
+    
+    & img {
+        max-width: 30rem;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    & h2{
+        text-align: center;
+    }
+
+}
+
+

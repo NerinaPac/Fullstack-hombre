@@ -22,6 +22,7 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { NoticiasComponent } from './pages/noticias/noticias.component';
 import { NoticionComponent } from './components/noticion/noticion.component';
 import { NoticiaComponent } from './pages/noticia/noticia.component';
+import { CartelComponent } from './components/cartel/cartel.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { NoticiaComponent } from './pages/noticia/noticia.component';
     FormularioComponent,
     NoticiasComponent,
     NoticionComponent,
-    NoticiaComponent
+    NoticiaComponent,
+    CartelComponent
   ],
   imports: [
     BrowserModule,
