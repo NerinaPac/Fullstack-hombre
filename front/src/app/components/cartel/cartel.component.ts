@@ -9,6 +9,10 @@ export class CartelComponent implements OnInit {
 
   constructor() { }
 
+
+  cartelAnima () {
+  }
+
   ngOnInit(): void {
   }
 

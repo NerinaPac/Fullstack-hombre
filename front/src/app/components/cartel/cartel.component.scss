@@ -1,18 +1,71 @@
 .cartel{
     background-color: blueviolet;
     display: flex;
-    margin: 0 auto;
+    margin: 2rem auto;
     max-width: 80rem;
     justify-content: center;
     align-items: center;
+    border: black solid 1px;    
+    box-shadow: 0px 0px 5px 0px;
+    overflow: hidden;
     
-    & img {
-        max-width: 30rem;
-        box-shadow: 1px 1px 1px 1px;
+    &-img {
+        max-width: 25rem;
+        animation: aparecerIzq 2s ease;
+        opacity: 0;
+        margin-bottom: -3px;
+        animation-fill-mode: both;
+
     }
 
     & h2{
         text-align: center;
+        padding-right: 2rem;
+        animation: aparecerDer 5s ease;
+        opacity: 0;
+        animation-fill-mode: both;
+        
+    }
+
+}
+
+.img-animada{
+    
+
+
+}
+
+.h2-animado{
+
+
+}
+
+@keyframes aparecerIzq {
+0% { 
+    transform: translateX(-20vw);
+    opacity: 0;
+
+}
+
+100%{
+    transform: translateX(01vw);
+    opacity: 1;
+
+}
+
+}
+@keyframes aparecerDer {
+
+    0% { 
+        transform:translateX(10vw);
+        opacity: 0;
+    
+    }
+    
+    100%{
+        transform: translateX(0vw);
+        opacity: 1;
+    
     }
 
 }
