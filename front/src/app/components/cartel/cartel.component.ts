@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-cartel',
@@ -14,6 +15,9 @@ export class CartelComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    AOS.init({
+    duration: 1500, 
+  });
   }
 
 }
