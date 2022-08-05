@@ -6,7 +6,7 @@ const db = require('../models');
 
 // SELECT * FROM libros
 // JOIN ..... autor
-const getBooks = async () => {
+/* const getBooks = async () => {
     const libros = await db.libro.findAll({
                             include: db.autor
                         })
@@ -36,7 +36,7 @@ const getBookById = async (id) => {
                     });
 
     return book;
-};
+}; */
 
 // WHERE titulo LIKE "%termino%"
 const findBookByTitle = async (termino) => {

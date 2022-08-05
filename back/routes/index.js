@@ -5,7 +5,7 @@ var router = express.Router();
 const api = require('../api');
 
 /* GET home page. */
-router.get('/libros', async (req, res) => {
+/* router.get('/libros', async (req, res) => {
   const libros = await api.getBooks();
   res.send(libros);
 });
@@ -20,7 +20,7 @@ router.get('/libro/:id', async (req, res) => {
 router.get('/autores', async (req, res) => {
   const autores = await api.getAuthors();
   res.send(autores);
-});
+}); */
 /* ===================================================================================== */
 
 /* POST agregar-denuncia */
