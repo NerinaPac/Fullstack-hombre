@@ -1,1 +1,1 @@
-web: "concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\""
+web:concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\"
