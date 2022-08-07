@@ -1,1 +1,1 @@
-web:node www.js
+web: "concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\""
