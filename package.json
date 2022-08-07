@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "start": "concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\""
   },
   "keywords": [],
