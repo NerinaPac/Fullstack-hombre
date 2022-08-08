@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\""
+    "start": "concurrently --kill-others \"cd back & npm run dev\" \"cd front & npm start\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
