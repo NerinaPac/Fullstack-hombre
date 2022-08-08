@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
@@ -8,6 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   constructor() { }
+
+  activo:boolean = true;
+
+  mostrarmenu () {
+    this.activo = true;
+    console.log("funciona");
+
+  }
 
   ngOnInit(): void {
   }

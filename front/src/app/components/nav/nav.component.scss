@@ -28,6 +28,7 @@
 .botonera-list{
     display:flex;
     justify-content: center;
+    display: none;
    /*  flex-wrap:wrap; */
 
 
@@ -43,6 +44,7 @@
             text-decoration: none;
             font-weight: bold;
             padding: 1rem;
+            flex-grow: 1;
 
             &:hover{
                 background-color: var(--azulpetro);
@@ -53,6 +55,27 @@
     }
 
 
+}
+
+.hamburguesa {
+    padding: 8px;
+    font-weight: bold;
+    margin: 0 15px;
+    border: none;
+    font-size:larger;
+    background-color: var(--celeste);
+    border-radius: 30%;
+    
+    
+    &:hover{
+        color: white;
+        text-decoration:underline;
+
+    }
+}
+
+.mostrarmenu{
+    display: block;
 }
  
 @media (max-width: 1287px) {
@@ -90,12 +113,16 @@
 
 @media (max-width: 650px) {
 
-    .encabezado{
-        flex-wrap: wrap;
-    }
+    /* .encabezado{
+        display: block;
+    } */
     .botonera-list{
-        flex-wrap: wrap;
-        flex-grow: 1;
+        display: block;
+        display: none;
+    }
+
+    .hamburguesa{
+        display: block;
     }
 
 }
