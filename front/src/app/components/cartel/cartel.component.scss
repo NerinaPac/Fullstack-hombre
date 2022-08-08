@@ -24,3 +24,49 @@
 
 }
 
+@media (max-width: 1200px) {
+
+    .cartel{
+        max-width: 50rem;
+        &-img {
+            max-width: 20rem;
+           }
+}
+}
+
+@media (max-width: 995px) {
+
+    .cartel{
+        max-width: 40rem;
+        &-img {
+            max-width: 15rem;
+           }
+        }
+}
+
+@media (max-width: 700px) {
+
+    .cartel{
+        max-width: 25rem;
+        &-img {
+            max-width: 10rem;
+           }
+        & h2{
+            text-align: center;
+            padding-right: 1rem;
+            font-size: small;
+           
+        }
+        }
+}
+
+@media (max-width: 450px) {
+
+    .cartel{
+        max-width: 24rem;
+        &-img {
+            max-width: 7rem;
+           }
+        
+        }
+}

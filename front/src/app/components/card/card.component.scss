@@ -26,35 +26,13 @@
 
 
 
-/* .noticias-vermas{   
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size:larger;
-}
+@media (max-width: 878px) {
+    .card-noticias{
+    max-width: 40rem;
+    max-height: 30rem;
 
-.noticias-vermas:hover{
-    text-decoration: underline;
-}
-
-@media(max-width: 780px){
-
-    .noticias-relev{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .noticias-relev-articulo{
-        width: 23rem;
-        height: 23rem;
-        
+    & img {
+        height: auto;
     }
 }
-
-
-@media(max-width: 912px){
-    .noticias-relev{
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-}
- */
+}    

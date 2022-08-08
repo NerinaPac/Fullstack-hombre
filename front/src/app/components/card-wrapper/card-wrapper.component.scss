@@ -6,11 +6,25 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     
 }
 
 
 .desaparecer{
     display: none;
+}
+
+@media (max-width: 1200px) {
+
+    .card-contenedor{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 878px) {
+
+    .card-contenedor{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
