@@ -8,17 +8,29 @@
     padding: 1rem;
     box-shadow: 6px 6px 30px;
 
+    
     &_enviar{
-        margin-left: 19rem;
         padding: 2px 12px;
         
     }
 
-    &enviado {
-        color: red;
+    .denuncia-form_campos{
+        resize: both;
+        width: auto;
     }
-
+    
    
 }
 
+@media (max-width: 450px) {
+    .denuncia{
+        margin: 0 2rem;
+
+    }
+    .denuncia-form_campos{
+       resize: none;
+       width: 5rem;
+
+}    
+}
 

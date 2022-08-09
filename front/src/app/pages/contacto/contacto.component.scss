@@ -8,11 +8,11 @@
 
 }
 
-.contactos-contenido h2{
+h2{
     text-decoration: underline;
 }
 
-.cuerpo-contactos{
+.cuadro-contactos{
     margin: 1rem auto;
     max-width: 70rem;
     background-color: var(--grisclaro);
@@ -21,15 +21,22 @@
     padding-bottom: 5px;
     overflow: hidden;
     box-shadow: 1px 1px 5px;
-}
 
-.contactos-img{
-    max-width: 70rem;
-    opacity: 80%;
-
+    & img{
+        max-width: auto;
+        opacity: 80%;
     
+    }
+
+    & p, h3 {
+        margin-top: 1rem;
+    }
 }
 
-.cuerpo-contactos p, h3 {
-    margin-top: 1rem;
+
+@media (max-width: 1185px) {
+   .contactos-contenido{
+    margin: 0 2rem;
+   }
+
 }
