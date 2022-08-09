@@ -1,7 +1,5 @@
 body{
-    background-image: url(/img/otonio.webp);
     background-color: var(--naranja);
-    background-repeat: none;
     padding: 1rem 0;
 }
 
@@ -13,7 +11,7 @@ body{
 
 .cuadrotext-nuestralucha{
     background-color: var(--celesteclaro);
-    width: 65rem;
+    max-width: 65rem;
     margin: 1rem auto;
     margin-top: 2rem;
     padding: 1rem;
@@ -30,4 +28,13 @@ body{
 .cuadrotext-nuestralucha img{
     box-shadow: 1px 1px 1px;
     width: 65rem;
+}
+
+@media (max-width: 1150px) {
+
+.cuadrotext-nuestralucha{
+    margin: 2rem 3rem;
+
+
+}
 }
